@@ -38,7 +38,7 @@ public class ChatGptService {
 
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Content-Type", "application/json");
-			con.setRequestProperty("Authorization", "Bearer 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");
+			con.setRequestProperty("Authorization", "Bearer sk-BOBrJCtmpYEAkQlP9112345673BlbkFJCCqxFhZVrxE88LC2UsXD");
 
 			JSONObject data = new JSONObject();
 			data.put("model", "text-davinci-003");
