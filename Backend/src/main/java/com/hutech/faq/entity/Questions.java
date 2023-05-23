@@ -22,5 +22,6 @@ public class Questions {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	private String question;
+	@Column(length = 8000)
 	private String answer;
 }
